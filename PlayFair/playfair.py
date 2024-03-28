@@ -90,8 +90,8 @@ def decrypt(ciphertext, key):
     return plaintext
 
 # Example usage:
-key = "PLAYFAIR"
-plaintext = "ABLE"
+key = input("Enter  a keyword (5 characters or less): ")
+plaintext = input("Enter the message: ")
 ciphertext = encrypt(plaintext, key)
 decrypted_text = decrypt(ciphertext, key)
 
