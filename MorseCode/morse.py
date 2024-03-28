@@ -33,7 +33,7 @@ def decrypt(morse_code):
     return decrypted_text
 
 # Example usage:
-text_to_encrypt = "Khadeeja Arshad Ali"
+text_to_encrypt = input("Enter the plain text: ")
 encrypted_text = encrypt(text_to_encrypt)
 print(f"Original text: {text_to_encrypt}")
 print(f"Encrypted text: {encrypted_text}")
