@@ -33,8 +33,8 @@ def decrypt_rail_fence(ciphertext, key):
             direction *= -1
     return plaintext
 # Example
-text = "helloworld"
-key = 3
+text = input("enter the plaintext: ")
+key = int(input("Enter the key: "))
 encrypted_text = encrypt_rail_fence(text, key)
 decrypted_text = decrypt_rail_fence(encrypted_text, key)
 print("Original Text:", text)
