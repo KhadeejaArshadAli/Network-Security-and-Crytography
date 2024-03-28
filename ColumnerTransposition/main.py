@@ -1,5 +1,4 @@
-# Python3 implementation of 
-# Columnar Transposition
+
 import math
 
 key = "FUN"
@@ -103,4 +102,3 @@ print("Encrypted Message: {}".
 print("Decryped Message: {}".
 	format(decryptMessage(cipher)))
 
-# This code is contributed by Aditya K
